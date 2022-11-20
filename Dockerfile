@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.16
 MAINTAINER eric@daras.family
 
 RUN apk add --no-cache monit curl tzdata tini
